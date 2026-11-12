@@ -11,3 +11,8 @@ O banco organiza dados de pacientes, médicos e usuários, incluindo perfis de a
 
 - **Tecnologias:** modelagem relacional e SQL.
 - **Escopo:** projeto acadêmico que documenta a estrutura lógica de um banco de dados hospitalar, incluindo entidades, atributos e relacionamentos. 
+
+## 📚 Documentação
+
+- [Esquema relacional](docs/esquema_relacional.md)
+- [Descrição textual do sistema](docs/descricao_textual.md)
