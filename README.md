@@ -16,3 +16,8 @@ O banco organiza dados de pacientes, médicos e usuários, incluindo perfis de a
 
 - [Esquema relacional](docs/esquema_relacional.md)
 - [Descrição textual do sistema](docs/descricao_textual.md)
+
+## 📂 Conteúdo do repositório
+
+- **`docs/esquema_relacional.md`** — apresenta as entidades, atributos e relacionamentos do modelo lógico do banco de dados hospitalar.
+- **`docs/descricao_textual.md`** — descreve o sistema e seus requisitos de dados, incluindo pacientes, equipe médica, consultas, internações, exames e prescrições.
