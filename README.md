@@ -21,3 +21,15 @@ O banco organiza dados de pacientes, médicos e usuários, incluindo perfis de a
 
 - **`docs/esquema_relacional.md`** — apresenta as entidades, atributos e relacionamentos do modelo lógico do banco de dados hospitalar.
 - **`docs/descricao_textual.md`** — descreve o sistema e seus requisitos de dados, incluindo pacientes, equipe médica, consultas, internações, exames e prescrições.
+
+## 📋 Regras de negócio
+
+- Pessoas podem ser cadastradas como pacientes ou médicos. Pessoas autorizadas podem ter uma conta de usuário vinculada.
+- Um usuário pode receber vários perfis de acesso, e cada perfil pode ser atribuído a vários usuários.
+- Cada consulta relaciona um paciente e um médico e registra data e hora, motivo e status.
+- Os prontuários registram o atendimento do paciente pelo médico, com data, diagnóstico e observações.
+- Um paciente pode ter várias internações ao longo do tempo. Cada internação relaciona o paciente a um leito e registra datas de entrada e alta e observações.
+- Leitos pertencem a departamentos e possuem um status, como livre ou ocupado.
+- Exames são associados a pacientes e guardam tipo, data da solicitação e laudo ou resultado.
+- Médicos emitem prescrições para pacientes. Cada prescrição pode conter vários medicamentos; cada item registra quantidade e posologia.
+- O estoque de medicamentos é acompanhado pela quantidade disponível.
