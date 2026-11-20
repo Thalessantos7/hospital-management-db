@@ -33,3 +33,7 @@ O banco organiza dados de pacientes, médicos e usuários, incluindo perfis de a
 - Exames são associados a pacientes e guardam tipo, data da solicitação e laudo ou resultado.
 - Médicos emitem prescrições para pacientes. Cada prescrição pode conter vários medicamentos; cada item registra quantidade e posologia.
 - O estoque de medicamentos é acompanhado pela quantidade disponível.
+
+## 👥 Créditos
+
+Projeto acadêmico desenvolvido por **Thales Santos** para a disciplina de Banco de Dados I do curso de Análise e Desenvolvimento de Sistemas (ADS).
