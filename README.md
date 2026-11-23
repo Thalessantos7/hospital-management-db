@@ -9,8 +9,29 @@ O banco organiza dados de pacientes, médicos e usuários, incluindo perfis de a
 
 ## 🛠️ Tecnologias e escopo
 
-- **Tecnologias:** modelagem relacional e SQL.
+- **Tecnologias:** modelagem relacional, SQL e PostgreSQL.
 - **Escopo:** projeto acadêmico que documenta a estrutura lógica de um banco de dados hospitalar, incluindo entidades, atributos e relacionamentos. 
+
+## ⚙️ Como executar
+
+### Pré-requisitos
+
+- PostgreSQL instalado e em execução.
+- pgAdmin conectado ao servidor PostgreSQL.
+
+### Criar o banco
+
+No pgAdmin, conecte-se ao servidor PostgreSQL, selecione o banco `postgres` e abra **Tools → Query Tool**. Verifique se **Auto-commit** está ativo e execute:
+
+```sql
+CREATE DATABASE gerenciamento_hospitalar;
+```
+
+### Aplicar o esquema
+
+Atualize a lista de bancos no pgAdmin, selecione `gerenciamento_hospitalar` e abra **Tools → Query Tool**. No Query Tool, abra `sql/01_ddl_schema.sql` pelo botão **Open File**, então execute o conteúdo com **F5**. O script cria as tabelas e restrições do esquema.
+
+Para conferir as tabelas, atualize **Schemas → public → Tables** no navegador do pgAdmin.
 
 ## 📚 Documentação
 
