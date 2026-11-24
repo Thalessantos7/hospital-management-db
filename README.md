@@ -40,8 +40,13 @@ Para conferir as tabelas, atualize **Schemas → public → Tables** no navegado
 
 ## 📂 Conteúdo do repositório
 
-- **`docs/esquema_relacional.md`** — apresenta as entidades, atributos e relacionamentos do modelo lógico do banco de dados hospitalar.
-- **`docs/descricao_textual.md`** — descreve o sistema e seus requisitos de dados, incluindo pacientes, equipe médica, consultas, internações, exames e prescrições.
+- **`sql/01_ddl_schema.sql`** — cria as tabelas, chaves e restrições do banco de dados.
+- **`sql/02_dml_seed.sql`** — insere dados de exemplo para explorar o modelo.
+- **`.gitattributes`** — configura o GitHub para incluir arquivos SQL nas estatísticas de linguagens do repositório.
+- **`docs/der-sistema-hospitalar.png`** — diagrama entidade-relacionamento conceitual do sistema.
+- **`docs/dl-sistema-hospitalar.png`** — diagrama lógico com tabelas, atributos e relacionamentos.
+- **`docs/esquema_relacional.md`** — descreve textualmente as entidades, atributos e relacionamentos.
+- **`docs/descricao_textual.md`** — apresenta o sistema e seus requisitos de dados.
 
 ## 📋 Regras de negócio
 
