@@ -38,6 +38,16 @@ Para conferir as tabelas, atualize **Schemas → public → Tables** no navegado
 - [Esquema relacional](docs/esquema_relacional.md)
 - [Descrição textual do sistema](docs/descricao_textual.md)
 
+## 🧩 Diagramas do modelo
+
+### Diagrama Entidade-Relacionamento (DER)
+
+![Diagrama entidade-relacionamento conceitual do sistema hospitalar](docs/der-sistema-hospitalar.png)
+
+### Diagrama lógico
+
+![Diagrama lógico do banco de dados hospitalar](docs/dl-sistema-hospitalar.png)
+
 ## 📂 Conteúdo do repositório
 
 - **`sql/01_ddl_schema.sql`** — cria as tabelas, chaves e restrições do banco de dados.
